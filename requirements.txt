@@ -1,5 +1,4 @@
-fbprophet==0.7.1
-matplotlib==3.3.2
-plotly==5.9.0
-streamlit==1.11.0
-yfinance==0.1.74
+prophet
+plotly
+streamlit
+yfinance
