@@ -19,8 +19,8 @@ stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD
 , "PEP", "COKE", "IOC.NS")
 selected_stocks = st.selectbox("Select Stock for Prediction", stocks)
 
-#n_years = st.slider("Years of Prediction:", 1, 10)
-#period = n_years * 365
+n_years = st.slider("Years of Prediction:", 1, 10)
+period = n_years * 365
 
 #n_months = st.slider("Months of Prediction:", 1, 12)
 #period1 = n_months * 30
@@ -28,8 +28,8 @@ selected_stocks = st.selectbox("Select Stock for Prediction", stocks)
 #n_weeks = st.slider("Weeks of Prediction:", 1, 5)
 #period = n_weeks * 7
 
-n_days = st.slider("Days of Prediction:", 1, 30)
-period = n_days * 1
+#n_days = st.slider("Days of Prediction:", 1, 30)
+#period = n_days * 1
 
 @st.cache
 def load_data(ticker):
