@@ -20,7 +20,7 @@ stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD
 selected_stocks = st.selectbox("Select Stock for Prediction", stocks)
 
 n_years = st.slider("Years of Prediction:", 0, 10)
-period_1 = n_years * 365
+period = n_years * 365
 
 #n_months = st.slider("Months of Prediction:", 1, 12)
 #period1 = n_months * 30
@@ -28,8 +28,8 @@ period_1 = n_years * 365
 #n_weeks = st.slider("Weeks of Prediction:", 1, 5)
 #period = n_weeks * 7
 
-n_days = st.slider("Days of Prediction:", 0, 30)
-period = n_days * 1
+#n_days = st.slider("Days of Prediction:", 0, 30)
+#period = n_days * 1
 
 @st.cache
 def load_data(ticker):
@@ -59,32 +59,17 @@ df_train = df_train.rename(columns={'Date': 'ds', 'Close': 'y'})
 
 m = Prophet()
 m.fit(df_train)
-future = m.make_future_dataframe(periods=period_1,)
-forecast1 = m.predict(future)
-
-m = Prophet()
-m.fit(df_train)
 future = m.make_future_dataframe(periods=period,)
-forecast = m.predict(future)
+forecast1 = m.predict(future)
 
 st.subheader('Forecast Data')
 st.write(forecast1.tail(4))
 
-st.subheader('Forecast Data')
-st.write(forecast.tail(4))
-
 st.subheader('Forecast Chart')
 fig1 = plot_plotly(m, forecast1)
-st.plotly_chart(fig1)
-
-st.subheader('Forecast Chart')
-fig1 = plot_plotly(m, forecast)
 st.plotly_chart(fig1)
 
 st.subheader('Forecast Components')
 fig2 = m.plot_components(forecast1)
 st.write(fig2)
 
-st.subheader('Forecast Components')
-fig2 = m.plot_components(forecast)
-st.write(fig2, figsize=(5, 5))
