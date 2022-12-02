@@ -66,6 +66,23 @@ st.subheader('Forecast Data')
 st.write(forecast1.tail(4))
 
 st.subheader('Forecast Chart')
+fig1 = plot_plotly(m, forecast1)
+st.plotly_chart(fig1)
+
+st.subheader('Forecast Components')
+fig2 = m.plot_components(forecast1)
+st.write(fig2)
+
+#dayly
+m = Prophet()
+m.fit(df_train)
+future = m.make_future_dataframe(periods=period,)
+forecast = m.predict(future)
+
+st.subheader('Forecast Data')
+st.write(forecast.tail(4))
+
+st.subheader('Forecast Chart')
 fig1 = plot_plotly(m, forecast)
 st.plotly_chart(fig1)
 
