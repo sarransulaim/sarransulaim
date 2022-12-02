@@ -1,6 +1,5 @@
 
 from time import time
-import matplotlib.pyplot as plt
 import streamlit as st
 from datetime import date
 
@@ -20,16 +19,16 @@ stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD
 , "PEP", "COKE", "IOC.NS")
 selected_stocks = st.selectbox("Select Stock for Prediction", stocks)
 
-n_years = st.slider("Years of Prediction:", 0, 10)
+n_years = st.slider("Years of Prediction:", 1, 10)
 period = n_years * 365
 
 #n_months = st.slider("Months of Prediction:", 1, 12)
-#period1 = n_months * 30
+#period1 = n_months * 30S
 
 #n_weeks = st.slider("Weeks of Prediction:", 1, 5)
 #period = n_weeks * 7
 
-#n_days = st.slider("Days of Prediction:", 0, 30)
+#n_days = st.slider("Days of Prediction:", 1, 30)
 #period = n_days * 1
 
 @st.cache
@@ -60,17 +59,16 @@ df_train = df_train.rename(columns={'Date': 'ds', 'Close': 'y'})
 
 m = Prophet()
 m.fit(df_train)
-future = m.make_future_dataframe(periods=period,)
-forecast1 = m.predict(future)
+future = m.make_future_dataframe(periods=period)
+forecast = m.predict(future)
 
 st.subheader('Forecast Data')
-st.write(forecast1.tail(4))
+st.write(forecast.tail(4))
 
 st.subheader('Forecast Chart')
-fig1 = plot_plotly(m, forecast1)
+fig1 = plot_plotly(m, forecast)
 st.plotly_chart(fig1)
 
 st.subheader('Forecast Components')
-fig2 = m.plot_components(forecast1)
+fig2 = m.plot_components(forecast)
 st.write(fig2)
-
