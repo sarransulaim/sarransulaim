@@ -1,5 +1,6 @@
 
 from time import time
+import matplotlib.pyplot as plt
 import streamlit as st
 from datetime import date
 
@@ -45,7 +46,7 @@ st.subheader('Raw Data')
 st.write(data.tail(10))
 
 def plot_raw_data():
-    fig = go.Figure(5, 5)
+    fig, ax= plt.subplots(filesize=(5, 5))
     fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name='stock_open'))
     fig.add_trace(go.Scatter(x=data['Date'], y=data['Close'], name='stock_close'))
     fig.layout.update(title_text="Time Series Data", xaxis_rangeslider_visible=True)
