@@ -20,7 +20,7 @@ stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD
 selected_stocks = st.selectbox("Select Stock for Prediction", stocks)
 
 n_years = st.slider("Years of Prediction:", 0, 10)
-period = n_years * 365
+period_1 = n_years * 365
 
 #n_months = st.slider("Months of Prediction:", 1, 12)
 #period1 = n_months * 30
@@ -58,6 +58,10 @@ df_train = data[['Date', 'Close']]
 df_train = df_train.rename(columns={'Date': 'ds', 'Close': 'y'})
 
 m = Prophet()
+m.fit(df_train)
+future = m.make_future_dataframe(periods=period_1)
+forecast = m.predict(future)
+
 m.fit(df_train)
 future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
