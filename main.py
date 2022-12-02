@@ -14,12 +14,13 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.set_page_config(layout="wide")
 st.title("Stock Prediction Platform")
-stocks = ("AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD", "ETH-USD", "DOGE-USD", "SHIB-USD", "TWTR", "META", "RELIANCE.NS", "TATASTEEL.NS", "TATAMOTORS.NS", "TATAPOWER.NS"
+user_input = st.text_input("Enter The Stock Ticker", "AAPL")
+stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD", "ETH-USD", "DOGE-USD", "SHIB-USD", "TWTR", "META", "RELIANCE.NS", "TATASTEEL.NS", "TATAMOTORS.NS", "TATAPOWER.NS"
 , "PEP", "COKE", "IOC.NS")
 selected_stocks = st.selectbox("Select Stock for Prediction", stocks)
 
-n_years = st.slider("Years of Prediction:", 1, 10)
-period = n_years * 365
+#n_years = st.slider("Years of Prediction:", 1, 10)
+#period = n_years * 365
 
 #n_months = st.slider("Months of Prediction:", 1, 12)
 #period1 = n_months * 30
@@ -27,8 +28,8 @@ period = n_years * 365
 #n_weeks = st.slider("Weeks of Prediction:", 1, 5)
 #period = n_weeks * 7
 
-#n_days = st.slider("Days of Prediction:", 1, 30)
-#period = n_days * 1
+n_days = st.slider("Days of Prediction:", 1, 30)
+period = n_days * 1
 
 @st.cache
 def load_data(ticker):
@@ -50,7 +51,7 @@ def plot_raw_data():
     fig.layout.update(title_text="Time Series Data", xaxis_rangeslider_visible=True)
     st.plotly_chart(fig)
 
-plot_raw_data()    
+plot_raw_data()
 
 # Forecasting
 df_train = data[['Date', 'Close']]
@@ -62,7 +63,7 @@ future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
 
 st.subheader('Forecast Data')
-st.write(forecast.tail(10))
+st.write(forecast.tail(4))
 
 st.subheader('Forecast Chart')
 fig1 = plot_plotly(m, forecast)
