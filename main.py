@@ -84,6 +84,7 @@ st.plotly_chart(fig1)
 st.subheader('Forecast Components')
 fig2 = m.plot_components(forecast1)
 st.write(fig2)
+
 st.subheader('Forecast Components')
 fig2 = m.plot_components(forecast)
-st.write(fig2)
+st.write(fig2, figsize=(5, 5))
