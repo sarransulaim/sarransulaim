@@ -13,7 +13,7 @@ START = "2010-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
 st.set_page_config(layout="wide")
-st.title("Stocks Prediction Platform")
+st.title("Stocks and Crypto Prediction Platform")
 user_input = st.text_input("Enter The Stock Ticker", "AAPL")
 stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD", "ETH-USD", "DOGE-USD", "SHIB-USD", "TWTR", "META", "RELIANCE.NS", "TATASTEEL.NS", "TATAMOTORS.NS", "TATAPOWER.NS"
 , "PEP", "COKE", "IOC.NS")
