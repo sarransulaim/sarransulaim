@@ -19,7 +19,7 @@ stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD
 , "PEP", "COKE", "IOC.NS")
 selected_stocks = st.selectbox("Select Stock for Prediction", stocks)
 
-n_years = st.slider("Years of Prediction:", 1, 10)
+n_years = st.slider("Year of Prediction:", 1, 10)
 period = n_years * 365
 
 #n_months = st.slider("Months of Prediction:", 1, 12)
