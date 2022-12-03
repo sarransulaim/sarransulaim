@@ -13,13 +13,13 @@ START = "2010-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
 st.set_page_config(layout="wide")
-st.title("Stock Prediction Platform")
+st.title("Stocks Prediction Platform")
 user_input = st.text_input("Enter The Stock Ticker", "AAPL")
 stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD", "ETH-USD", "DOGE-USD", "SHIB-USD", "TWTR", "META", "RELIANCE.NS", "TATASTEEL.NS", "TATAMOTORS.NS", "TATAPOWER.NS"
 , "PEP", "COKE", "IOC.NS")
 selected_stocks = st.selectbox("Select Stock for Prediction", stocks)
 
-n_years = st.slider("Year of Prediction:", 1, 10)
+n_years = st.slider("Years of Prediction:", 0, 10)
 period = n_years * 365
 
 #n_months = st.slider("Months of Prediction:", 1, 12)
