@@ -12,7 +12,6 @@ from plotly import graph_objs as go
 START = "2010-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.set_page_config(layout="wide")
 
 page_bg_img = """
 <style>
