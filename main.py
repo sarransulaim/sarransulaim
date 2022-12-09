@@ -15,11 +15,9 @@ TODAY = date.today().strftime("%Y-%m-%d")
 st.set_page_config(layout="wide")
 page_bg_img = """
 <style>
-[data-testid="stAppViewContainer"] {background-color: #acf0fb;
-opacity: 0.8;
-background-image:  linear-gradient(30deg, #070163 12%, transparent 12.5%, transparent 87%, #070163 87.5%, #070163), linear-gradient(150deg, #070163 12%, transparent 12.5%, transparent 87%, #070163 87.5%, #070163), linear-gradient(30deg, #070163 12%, transparent 12.5%, transparent 87%, #070163 87.5%, #070163), linear-gradient(150deg, #070163 12%, transparent 12.5%, transparent 87%, #070163 87.5%, #070163), linear-gradient(60deg, #07016377 25%, transparent 25.5%, transparent 75%, #07016377 75%, #07016377), linear-gradient(60deg, #07016377 25%, transparent 25.5%, transparent 75%, #07016377 75%, #07016377);
-background-size: 20px 35px;
-background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;}
+[data-testid="stAppViewContainer"] {background-color: #f7ebe6;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f7ebe6 12px ), repeating-linear-gradient( #00034555, #000345 );}
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
