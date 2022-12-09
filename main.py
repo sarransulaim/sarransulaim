@@ -23,7 +23,7 @@ background-size: 20px 35px;
 background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;}
 </style>
 """
-st.markdown(page_bg_img, unsafe_allow_html=True}
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title("Stocks and Crypto Prediction Platform")
 user_input = st.text_input("Enter The Stock Ticker", "AAPL")
