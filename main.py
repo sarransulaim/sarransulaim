@@ -15,9 +15,9 @@ TODAY = date.today().strftime("%Y-%m-%d")
 st.set_page_config(layout="wide")
 page_bg_img = """
 <style>
-[data-testid="stAppViewContainer"] {background-color: #f7ebe6;
+[data-testid="stAppViewContainer"] {background-color: #130148;
 opacity: 1;
-background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f7ebe6 12px ), repeating-linear-gradient( #00034555, #000345 );}
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #130148 23px ), repeating-linear-gradient( #1c450055, #1c4500 );}
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
