@@ -13,6 +13,7 @@ START = "2010-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
 st.set_page_config(layout="wide")
+
 page_bg_img = """
 <style>
 [data-testedid="stAppViewContainer"] {background-color: #acf0fb;
@@ -22,7 +23,8 @@ background-size: 20px 35px;
 background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;}
 </style>
 """
-st.markdown(page_bg_img, unsafe_allow_html=True
+st.markdown(page_bg_img, unsafe_allow_html=True}
+
 st.title("Stocks and Crypto Prediction Platform")
 user_input = st.text_input("Enter The Stock Ticker", "AAPL")
 stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD", "ETH-USD", "DOGE-USD", "SHIB-USD", "TWTR", "META", "RELIANCE.NS", "TATASTEEL.NS", "TATAMOTORS.NS", "TATAPOWER.NS"
