@@ -12,10 +12,10 @@ from plotly import graph_objs as go
 START = "2010-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-
+st.set_page_config(layout="wide")
 page_bg_img = """
 <style>
-[data-testedid="stAppViewContainer"] {background-color: #acf0fb;
+[data-testid="stAppViewContainer"] {background-color: #acf0fb;
 opacity: 0.8;
 background-image:  linear-gradient(30deg, #070163 12%, transparent 12.5%, transparent 87%, #070163 87.5%, #070163), linear-gradient(150deg, #070163 12%, transparent 12.5%, transparent 87%, #070163 87.5%, #070163), linear-gradient(30deg, #070163 12%, transparent 12.5%, transparent 87%, #070163 87.5%, #070163), linear-gradient(150deg, #070163 12%, transparent 12.5%, transparent 87%, #070163 87.5%, #070163), linear-gradient(60deg, #07016377 25%, transparent 25.5%, transparent 75%, #07016377 75%, #07016377), linear-gradient(60deg, #07016377 25%, transparent 25.5%, transparent 75%, #07016377 75%, #07016377);
 background-size: 20px 35px;
