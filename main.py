@@ -24,7 +24,7 @@ background-blend-mode: multiply;}
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-hide menu ="""
+hide_menu = """
 <style>
 #MainMenu {
 visibility:hidden;
