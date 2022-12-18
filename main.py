@@ -34,7 +34,9 @@ footer{
 visibility:hidden;
 }
 
-
+viewerBadge_container_1QSob{
+visibility:hidden;
+}
 </style>
 """
 st.markdown(hide_menu,unsafe_allow_html=True)
