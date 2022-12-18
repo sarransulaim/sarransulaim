@@ -34,7 +34,7 @@ footer{
 visibility:hidden;
 }
 
-viewerBadge_container_1QSob{
+#viewerBadge_container_1QSob{
 visibility:hidden;
 }
 </style>
