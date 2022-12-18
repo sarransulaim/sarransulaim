@@ -16,9 +16,9 @@ st.set_page_config(layout="wide")
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"]{
-background-color: #000874;
+background-color: #010648;
 opacity: 1;
-background-image: radial-gradient(circle at center center, #ffffff, #000874), repeating-radial-gradient(circle at center center, #ffffff, #ffffff, 4px, transparent 8px, transparent 4px);
+background-image: radial-gradient(circle at center center, #ffffff, #010648), repeating-radial-gradient(circle at center center, #ffffff, #ffffff, 4px, transparent 8px, transparent 4px);
 background-blend-mode: multiply;}
 </style>
 """
