@@ -24,6 +24,14 @@ background-blend-mode: multiply;}
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
+hide menu ="""
+<style>
+#MainMenu {
+visibility:hidden;
+}
+</style>
+"""
+st.markdown(hide_menu,unsafe_allow_html=True)
 st.title("Stocks Prediction Platform")
 user_input = st.text_input("Enter The Stock Ticker", "AAPL")
 stocks = (user_input, "AAPL", "GOOG", "BC94.L",  "MSFT", "GME", "TSLA", "BTC-USD", "ETH-USD", "DOGE-USD", "SHIB-USD", "TWTR", "META", "RELIANCE.NS", "TATASTEEL.NS", "TATAMOTORS.NS", "TATAPOWER.NS"
