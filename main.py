@@ -69,7 +69,7 @@ data = load_data(selected_stocks)
 data_load_state.text("Loading data....done!")
 
 st.subheader('Raw Data')
-st.write(data.tail(10))
+st.write(data.tail())
 
 def plot_raw_data():
     fig = go.Figure()
