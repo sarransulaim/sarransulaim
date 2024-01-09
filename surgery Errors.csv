@@ -1,0 +1,10 @@
+BloodPressureDrop,IncreasedHeartrate,DecreasedHeartrate,Fever,Swelling,AbnormalHeartRhythm,AllergicReaction,ProfuseBleeding,Hypotention,Shock,Infection,CardiacArrest,OrganFailure,Shivering,DecreasedCoreBodytemp,ChangesinVitalSigns,LowBloodPressureduringSurgery,HighBloodPressureduringSurgery,VisibleBloodloss,LowOxigenSaturation,Error,Causes
+1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Bleeding,"Inadequate Clotting, surgical instrument damage, vascular injury."
+0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,Infection,"Contaminated instruments, poor sterilization, compromised immune system."
+0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,Anesthesia-related complications,"Dosage errors, patient sensitivity, equipment malfunction."
+1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Organ damage,"Surgical instrument mishandling, inadequate blood supply to organs."
+1,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,Hemorrhage (Excessive bleeding):,"Vascular injury, improper ligation of blood vessels."
+0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,"Respiratory Issues:Anesthesia-related problems, lung injury.",
+0,1,1,0,0,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,Cardiovascular Complications,"Anesthesia reactions, pre-existing heart conditions."
+1,1,1,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,1,Postoperative Complications,"Improper postoperative care, undetected complications"
+0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,1,0,1,0,0,Anastomotic Leak (In gastrointestinal surgeries),Poorly constructed or compromised surgical connections.
