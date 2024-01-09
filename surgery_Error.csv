@@ -4,7 +4,7 @@ BloodPressureDrop,IncreasedHeartrate,DecreasedHeartrate,Fever,Swelling,AbnormalH
 0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,Anesthesia_related_complications,"Dosage errors, patient sensitivity, equipment malfunction."
 1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Organ_damage,"Surgical instrument mishandling, inadequate blood supply to organs."
 1,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,Hemorrhage,"Vascular injury, improper ligation of blood vessels."
-0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,Respiratory_Issues:,"Anesthesia-related problems, lung injury."
+0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,Respiratory_Issues,"Anesthesia-related problems, lung injury."
 0,1,1,0,0,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,Cardiovascular_Complications,"Anesthesia reactions, pre-existing heart conditions."
 1,1,1,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,1,Postoperative_Complications,"Improper postoperative care, undetected complications"
 0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,1,0,1,0,0,Anastomotic_Leak,Poorly constructed or compromised surgical connections.
