@@ -118,10 +118,6 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 125,105,55,89,36.5,None,None
 120,100,50,88,36.6,None,None
 115,95,45,87,36.7,None,None
-105,100,40,86,36.8,Arrythmia (Mixed),Moderate
-100,95,35,85,36.9,Arrythmia (Mixed),Moderate
-95,90,30,84,37,Arrythmia (Mixed),Moderate
-90,85,25,83,37.1,Arrythmia (Mixed),Moderate
 110,110,60,88,36.4,None,None
 105,105,55,87,36.5,None,None
 100,100,50,86,36.6,None,None
@@ -178,10 +174,6 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 100,95,45,85,37.1,None,None
 115,110,60,88,36.8,None,None
 105,105,55,87,36.9,None,None
-100,100,50,86,37,Arrythmia (Bradycardia),Mild
-95,95,35,85,36.5,Arrythmia (Bradycardia),Mild
-90,90,30,84,36.6,Arrythmia (Bradycardia),Mild
-85,85,25,83,36.7,Arrythmia (Bradycardia),Mild
 130,120,70,92,36.8,None,None
 125,115,65,91,36.9,None,None
 120,110,60,90,36.7,Bleeding,Mild
@@ -191,8 +183,218 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 100,90,40,86,37.1,Bleeding,Mild
 95,85,35,85,37.2,Bleeding,Mild
 90,80,30,84,37.3,None,None
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+110,120,60,88,36.8,None,None
+105,115,55,87,36.9,None,None
+100,110,50,86,37,None,None
+95,105,45,85,37.1,None,None
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+130,110,60,90,36.4,None,None
+125,105,55,89,36.5,None,None
+120,100,50,88,36.6,None,None
+115,95,45,87,36.7,None,None
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+110,110,60,88,36.4,None,None
+105,105,55,87,36.5,None,None
+100,100,50,86,36.6,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+95,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+135,110,50,88,37.1,Bleeding,Severe
 85,75,25,83,37.4,None,None
-120,110,70,88,36.8,None,None
+120,110,70,88,36.8,None,None115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+105,140,80,95,36.5,Bleeding,Moderate
+110,135,75,93,36.6,Bleeding,Moderate
+115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+105,140,80,95,36.5,Bleeding,Moderate
+110,135,75,93,36.6,Bleeding,Moderate
+115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+95,85,35,79,36.7,None,None
+100,90,40,80,36.8,None,None
+105,95,45,81,36.9,None,None
+110,100,50,82,37,None,None
+115,105,55,83,37.1,None,None
+120,110,60,84,37.2,None,None
+125,115,65,85,37.3,None,None
+130,120,70,86,37.4,None,None
+135,125,75,87,37.5,None,None
+100,140,80,94,36.4,Bleeding,Moderate
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,90,36.9,Bleeding,Moderate
+130,110,50,89,37,Bleeding,Severe
+135,105,45,88,37.1,Bleeding,Severe
+140,100,40,87,37.2,Cardiac Tamponade,Moderate
+145,95,35,86,37.3,Cardiac Tamponade,Moderate
+150,90,30,85,37.4,Cardiac Tamponade,Moderate
+95,90,40,84,36.5,Arrythmia (Bradycardia),Mild
+90,85,35,83,36.6,Arrythmia (Bradycardia),Mild
+85,80,30,82,36.7,Arrythmia (Bradycardia),Mild
+100,120,60,88,36.8,None,None
+95,115,55,87,36.9,None,None
+90,110,50,86,37,None,None
+85,105,45,85,37.1,None,None
+110,130,80,94,36.4,None,None
+105,125,75,93,36.5,None,None
+100,120,70,92,36.6,None,None
+95,115,65,91,36.7,None,None
+120,130,80,94,36.8,Bleeding,Mild
+125,125,75,93,36.9,Bleeding,Mild
+130,120,70,92,37,Bleeding,Mild
+135,115,65,91,37.1,Bleeding,Mild
+140,110,60,90,37.2,Bleeding,Moderate
+145,105,55,89,37.3,Bleeding,Moderate
+150,100,50,88,37.4,Bleeding,Moderate
+155,95,45,87,37.5,Bleeding,Severe
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+110,120,60,88,36.8,None,None
+105,115,55,87,36.9,None,None
+100,110,50,86,37,None,None
+95,105,45,85,37.1,None,None
+130,110,60,90,36.4,None,None
+125,105,55,89,36.5,None,None
+120,100,50,88,36.6,None,None
+115,95,45,87,36.7,None,None
+110,110,60,88,36.4,None,None
+105,105,55,87,36.5,None,None
+100,100,50,86,36.6,None,None
+95,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,89,36.9,Bleeding,Severe
+130,110,50,88,37,Bleeding,Severe
+135,105,45,87,37.1,Bleeding,Severe
+140,100,40,86,37.2,Cardiac Tamponade,Moderate
+145,95,35,85,37.3,Cardiac Tamponade,Moderate
+150,90,30,84,37.4,Cardiac Tamponade,Moderate
+155,85,25,83,37.5,Cardiac Tamponade,Severe
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+105,105,55,87,36.9,None,None
+130,120,70,92,36.8,None,None
+125,115,65,91,36.9,None,None
+120,110,60,90,36.7,Bleeding,Mild
+115,105,55,89,36.8,Bleeding,Mild
 115,105,65,87,36.9,None,None
 110,100,60,86,37,Cardiact Tamponade,Mild
 105,95,55,85,37.1,Cardiact Tamponade,Mild
@@ -201,97 +403,649 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 130,120,70,92,36.8,None,None
 125,115,65,91,36.9,None,None
 120,110,60,90,37,None,None
+115,95,45,87,36.7,None,None
+110,110,60,88,36.4,None,None
+105,105,55,87,36.5,None,None
+100,100,50,86,36.6,None,None
+95,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+110,90,40,80,36.6,None,None
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,89,36.9,Bleeding,Severe
+130,110,50,88,37,Bleeding,Severe
+135,105,45,87,37.1,Bleeding,Severe
+140,100,40,86,37.2,Cardiac Tamponade,Moderate
+145,95,35,85,37.3,Cardiac Tamponade,Moderate
+150,90,30,84,37.4,Cardiac Tamponade,Moderate
+155,85,25,83,37.5,Cardiac Tamponade,Severe
+130,120,70,92,36.4,Bleeding,Mild
+150,90,30,84,37.4,Cardiac Tamponade,Moderate
+155,85,25,83,37.5,Cardiac Tamponade,Severe
+135,115,65,91,36.5,Bleeding,Mild
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+140,110,60,90,36.6,Bleeding,Mild
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+105,95,45,85,37.1,None,None
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+140,110,60,90,36.6,Bleeding,Mild
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+105,95,45,85,37.1,None,None
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+140,110,60,90,36.6,Bleeding,Mild
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+105,95,45,85,37.1,None,None
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+140,110,60,90,36.6,Bleeding,Mild
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+105,95,45,85,37.1,None,None
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+105,95,45,85,37.1,None,None
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+140,110,60,90,36.6,Bleeding,Mild
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+105,140,80,95,36.5,Bleeding,Moderate
+110,135,75,93,36.6,Bleeding,Moderate
+115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+105,140,80,95,36.5,Bleeding,Moderate
+110,135,75,93,36.6,Bleeding,Moderate
+115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+95,85,35,79,36.7,None,None
+100,90,40,80,36.8,None,None
+105,95,45,81,36.9,None,None
+110,100,50,82,37,None,None
+115,105,55,83,37.1,None,None
+120,110,60,84,37.2,None,None
+125,115,65,85,37.3,None,None
+130,120,70,86,37.4,None,None
+135,125,75,87,37.5,None,None
+100,140,80,94,36.4,Bleeding,Moderate
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,90,36.9,Bleeding,Moderate
+130,110,50,89,37,Bleeding,Severe
+135,105,45,88,37.1,Bleeding,Severe
+140,100,40,87,37.2,Cardiac Tamponade,Moderate
+145,95,35,86,37.3,Cardiac Tamponade,Moderate
+150,90,30,85,37.4,Cardiac Tamponade,Moderate
+95,90,40,84,36.5,Arrythmia (Bradycardia),Mild
+90,85,35,83,36.6,Arrythmia (Bradycardia),Mild
+85,80,30,82,36.7,Arrythmia (Bradycardia),Mild
+100,120,60,88,36.8,None,None
+95,115,55,87,36.9,None,None
+90,110,50,86,37,None,None
+85,105,45,85,37.1,None,None
+110,130,80,94,36.4,None,None
+105,125,75,93,36.5,None,None
+100,120,70,92,36.6,None,None
+95,115,65,91,36.7,None,None
+120,130,80,94,36.8,Bleeding,Mild
+125,125,75,93,36.9,Bleeding,Mild
+130,120,70,92,37,Bleeding,Mild
+135,115,65,91,37.1,Bleeding,Mild
+140,110,60,90,37.2,Bleeding,Moderate
+145,105,55,89,37.3,Bleeding,Moderate
+150,100,50,88,37.4,Bleeding,Moderate
+155,95,45,87,37.5,Bleeding,Severe
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+110,120,60,88,36.8,None,None
+105,115,55,87,36.9,None,None
+100,110,50,86,37,None,None
+95,105,45,85,37.1,None,None
+130,110,60,90,36.4,None,None
+125,105,55,89,36.5,None,None
+120,100,50,88,36.6,None,None
+115,95,45,87,36.7,None,None
+110,110,60,88,36.4,None,None
+105,105,55,87,36.5,None,None
+100,100,50,86,36.6,None,None
+95,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+105,140,80,95,36.5,Bleeding,Moderate
+110,135,75,93,36.6,Bleeding,Moderate
+115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+105,140,80,95,36.5,Bleeding,Moderate
+110,135,75,93,36.6,Bleeding,Moderate
+115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+95,85,35,79,36.7,None,None
+100,90,40,80,36.8,None,None
+105,95,45,81,36.9,None,None
+110,100,50,82,37,None,None
+115,105,55,83,37.1,None,None
+120,110,60,84,37.2,None,None
+125,115,65,85,37.3,None,None
+130,120,70,86,37.4,None,None
+135,125,75,87,37.5,None,None
+100,140,80,94,36.4,Bleeding,Moderate
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,90,36.9,Bleeding,Moderate
+130,110,50,89,37,Bleeding,Severe
+135,105,45,88,37.1,Bleeding,Severe
+140,100,40,87,37.2,Cardiac Tamponade,Moderate
+145,95,35,86,37.3,Cardiac Tamponade,Moderate
+150,90,30,85,37.4,Cardiac Tamponade,Moderate
+95,90,40,84,36.5,Arrythmia (Bradycardia),Mild
+90,85,35,83,36.6,Arrythmia (Bradycardia),Mild
+85,80,30,82,36.7,Arrythmia (Bradycardia),Mild
+100,120,60,88,36.8,None,None
+95,115,55,87,36.9,None,None
+90,110,50,86,37,None,None
+85,105,45,85,37.1,None,None
+110,130,80,94,36.4,None,None
+105,125,75,93,36.5,None,None
+100,120,70,92,36.6,None,None
+95,115,65,91,36.7,None,None
+120,130,80,94,36.8,Bleeding,Mild
+125,125,75,93,36.9,Bleeding,Mild
+130,120,70,92,37,Bleeding,Mild
+135,115,65,91,37.1,Bleeding,Mild
+140,110,60,90,37.2,Bleeding,Moderate
+145,105,55,89,37.3,Bleeding,Moderate
+150,100,50,88,37.4,Bleeding,Moderate
+155,95,45,87,37.5,Bleeding,Severe
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+110,120,60,88,36.8,None,None
+105,115,55,87,36.9,None,None
+100,110,50,86,37,None,None
+95,105,45,85,37.1,None,None
+130,110,60,90,36.4,None,None
+125,105,55,89,36.5,None,None
+120,100,50,88,36.6,None,None
+115,95,45,87,36.7,None,None
+110,110,60,88,36.4,None,None
+105,105,55,87,36.5,None,None
+100,100,50,86,36.6,None,None
+95,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,89,36.9,Bleeding,Severe
+130,110,50,88,37,Bleeding,Severe
+135,105,45,87,37.1,Bleeding,Severe
+140,100,40,86,37.2,Cardiac Tamponade,Moderate
+145,95,35,85,37.3,Cardiac Tamponade,Moderate
+150,90,30,84,37.4,Cardiac Tamponade,Moderate
+155,85,25,83,37.5,Cardiac Tamponade,Severe
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+105,105,55,87,36.9,None,None
+130,120,70,92,36.8,None,None
+125,115,65,91,36.9,None,None
+120,110,60,90,36.7,Bleeding,Mild
+115,105,55,89,36.8,Bleeding,Mild
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,89,36.9,Bleeding,Severe
+130,110,50,88,37,Bleeding,Severe
+135,105,45,87,37.1,Bleeding,Severe
+140,100,40,86,37.2,Cardiac Tamponade,Moderate
+145,95,35,85,37.3,Cardiac Tamponade,Moderate
+150,90,30,84,37.4,Cardiac Tamponade,Moderate
+155,85,25,83,37.5,Cardiac Tamponade,Severe
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+105,105,55,87,36.9,None,None
+130,120,70,92,36.8,None,None
+125,115,65,91,36.9,None,None
+120,110,60,90,36.7,Bleeding,Mild
+115,105,55,89,36.8,Bleeding,Mild
+105,95,45,85,37.1,None,None
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,95,45,85,37.1,None,None
 115,105,55,89,37.1,None,None
 110,100,50,88,37.2,None,None
 105,95,45,87,37.3,None,None
 100,90,40,86,37.4,None,None
-130,120,70,90,36.4,Bleeding (Internal),Moderate
-125,115,65,89,36.5,Arrythmia (Tachycardia) & Bleeding,Mild
-120,110,60,88,36.6,None,None
-115,105,55,87,36.7,Cardiact Tamponade & Hypertension,Severe
-110,100,50,86,36.8,Hypotension,Moderate
-105,95,45,85,36.9,None,None
-100,90,40,84,37,Hypopnea,Mild
-95,85,35,83,37.1,Bradycardia & Hypoxia,Moderate
-90,80,30,82,37.2,None,None
-85,75,25,81,37.3,Bleeding (External),Mild
-130,120,70,90,36.4,None,None
-125,115,65,89,36.5,None,None
-120,110,60,88,36.6,Tachycardia,Moderate
-115,105,55,87,36.7,None,None
-110,100,50,86,36.8,Bradycardia & Hypotension,Mild
-105,95,45,85,36.9,None,None
-100,90,40,84,37,None,None
-95,85,35,83,37.1,Hypertension,Severe
-90,80,30,82,37.2,Hypoxia,Mild
-85,75,25,81,37.3,None,None
-130,120,70,90,36.4,None,None
-125,115,65,89,36.5,None,None
-120,110,60,88,36.6,Bradycardia,Mild
-115,105,55,87,36.7,None,None
-110,100,50,86,36.8,None,None
-105,95,45,85,36.9,None,None
-100,90,40,84,37,None,None
-95,85,35,83,37.1,None,None
-90,80,30,82,37.2,None,None
-85,75,25,81,37.3,None,None
-30,120,70,90,36.4,Internal Bleeding & Hypotension,Severe
-125,115,65,89,36.5,Tachycardia & Hypopnea,Moderate
-120,110,60,88,36.6,None,None
-115,105,55,87,36.7,Cardiact Tamponade & Hypoxia,Moderate
-110,100,50,86,36.8,Thrombus,Mild
-105,95,45,85,36.9,None,None
-100,90,40,84,37,Anemia,Mild
-95,85,35,83,37.1,Bradycardia & Acute Kidney Injury,Severe
-90,80,30,82,37.2,None,None
-85,75,25,81,37.3,External Bleeding & Hypertension,Moderate
-130,120,70,90,36.4,None,None
-125,115,65,89,36.5,None,None
-120,110,60,88,36.6,Bradycardia & Hyperventilation,Mild
-115,105,55,87,36.7,None,None
-110,100,50,86,36.8,Tachycardia & Hypotension,Moderate
-105,95,45,85,36.9,None,None
-100,90,40,84,37,Thrombus & Hypopnea,Mild
-95,85,35,83,37.1,Bradycardia & Hyperglycemia,Moderate
-90,80,30,82,37.2,None,None
-85,75,25,81,37.3,None,None
-130,120,70,90,36.4,None,None
-125,115,65,89,36.5,None,None
-120,110,60,88,36.6,Anemia & Hypoxia,Mild
-115,105,55,87,36.7,Internal Bleeding & Hypotension,Severe
-110,100,50,86,36.8,Pulmonary Edema,Moderate
-105,95,45,85,36.9,Tachycardia & Hypertension,Moderate
-100,90,40,84,37,Renal Failure,Mild
-95,85,35,83,37.1,None,None
-90,80,30,82,37.2,Hypopnea & Hypoglycemia,Mild
-85,75,25,81,37.3,Thrombus & Hyperventilation,Moderate
-130,120,70,90,36.4,Sepsis & Respiratory Failure,Severe
-125,115,65,89,36.5,Hypovolemic Shock & Seizures,Moderate
-120,110,60,88,36.6,None,None
-115,105,55,87,36.7,Pulmonary Embolism & Cardiac Arrest,Moderate
-110,100,50,86,36.8,Pericarditis & Acute Pancreatitis,Mild
-105,95,45,85,36.9,None,None
-100,90,40,84,37,Pneumonia & Electrolyte Imbalance,Mild
-95,85,35,83,37.1,Anemia & Liver Failure,Moderate
-90,80,30,82,37.2,None,None
-85,75,25,81,37.3,Metabolic Acidosis & Disseminated Intravascular Coagulation,Severe
-130,120,70,90,36.4,None,None
-125,115,65,89,36.5,None,None
-120,110,60,88,36.6,Anaphylaxis & Hypothermia,Mild
-115,105,55,87,36.7,None,None
-110,100,50,86,36.8,Sepsis & Acute Kidney Injury,Severe
-105,95,45,85,36.9,None,None
-100,90,40,84,37,Intracranial Hemorrhage & Stroke,Moderate
-95,85,35,83,37.1,Meningitis & Diabetic Ketoacidosis,Moderate
-90,80,30,82,37.2,None,None
-85,75,25,81,37.3,Adrenal Insufficiency & Myocardial Infarction,Severe
-130,120,70,90,36.4,None,None
-125,115,65,89,36.5,None,None
-120,110,60,88,36.6,Hemolytic Anemia & Sepsis,Mild
-115,105,55,87,36.7,Internal Bleeding & Hypovolemic Shock,Severe
-110,100,50,86,36.8,Rhabdomyolysis & ARDS,Moderate
-105,95,45,85,36.9,Tachycardia & Hyperthermia,Moderate
-100,90,40,84,37,Coagulopathy & Acute Respiratory Distress Syndrome,Mild
-95,85,35,83,37.1,None,None
-90,80,30,82,37.2,Multi-organ Failure & Sepsis,Severe
-85,75,25,81,37.3,Disseminated Intravascular Coagulation & Acute Liver Failure,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,95,45,85,37.1,None,None115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+105,140,80,95,36.5,Bleeding,Moderate
+110,135,75,93,36.6,Bleeding,Moderate
+115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+105,140,80,95,36.5,Bleeding,Moderate
+110,135,75,93,36.6,Bleeding,Moderate
+115,130,70,92,36.7,Bleeding,Moderate
+120,125,65,91,36.8,Bleeding,Moderate
+125,120,60,90,36.9,Bleeding,Severe
+130,115,55,89,37,Bleeding,Severe
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+95,85,35,79,36.7,None,None
+100,90,40,80,36.8,None,None
+105,95,45,81,36.9,None,None
+110,100,50,82,37,None,None
+115,105,55,83,37.1,None,None
+120,110,60,84,37.2,None,None
+125,115,65,85,37.3,None,None
+130,120,70,86,37.4,None,None
+135,125,75,87,37.5,None,None
+100,140,80,94,36.4,Bleeding,Moderate
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,90,36.9,Bleeding,Moderate
+130,110,50,89,37,Bleeding,Severe
+135,105,45,88,37.1,Bleeding,Severe
+140,100,40,87,37.2,Cardiac Tamponade,Moderate
+145,95,35,86,37.3,Cardiac Tamponade,Moderate
+150,90,30,85,37.4,Cardiac Tamponade,Moderate
+95,90,40,84,36.5,Arrythmia (Bradycardia),Mild
+90,85,35,83,36.6,Arrythmia (Bradycardia),Mild
+85,80,30,82,36.7,Arrythmia (Bradycardia),Mild
+100,120,60,88,36.8,None,None
+95,115,55,87,36.9,None,None
+90,110,50,86,37,None,None
+85,105,45,85,37.1,None,None
+110,130,80,94,36.4,None,None
+105,125,75,93,36.5,None,None
+100,120,70,92,36.6,None,None
+95,115,65,91,36.7,None,None
+120,130,80,94,36.8,Bleeding,Mild
+125,125,75,93,36.9,Bleeding,Mild
+130,120,70,92,37,Bleeding,Mild
+135,115,65,91,37.1,Bleeding,Mild
+140,110,60,90,37.2,Bleeding,Moderate
+145,105,55,89,37.3,Bleeding,Moderate
+150,100,50,88,37.4,Bleeding,Moderate
+155,95,45,87,37.5,Bleeding,Severe
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+110,120,60,88,36.8,None,None
+105,115,55,87,36.9,None,None
+100,110,50,86,37,None,None
+95,105,45,85,37.1,None,None
+130,110,60,90,36.4,None,None
+125,105,55,89,36.5,None,None
+120,100,50,88,36.6,None,None
+115,95,45,87,36.7,None,None
+110,110,60,88,36.4,None,None
+105,105,55,87,36.5,None,None
+100,100,50,86,36.6,None,None
+95,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+135,110,50,88,37.1,Bleeding,Severe
+140,105,45,87,37.2,Bleeding,Severe
+100,130,80,94,36.4,None,None
+95,125,75,93,36.5,None,None
+90,120,70,92,36.6,None,None
+85,115,65,91,36.7,None,None
+145,100,40,86,37.3,Cardiact Tamponade,Severe
+150,95,35,85,37.4,Cardiact Tamponade,Severe
+155,90,30,84,37.5,Cardiact Tamponade,Severe
+160,85,25,83,37.6,Cardiact Tamponade,Severe
+110,110,60,88,36.8,Arrythmia,Moderate
+105,105,55,87,36.9,Arrythmia,Moderate
+100,100,50,86,37,Arrythmia,Moderate
+95,95,45,85,37.1,Arrythmia,Moderate
+120,100,50,82,36.4,None,None
+115,95,45,81,36.5,None,None
+110,90,40,80,36.6,None,None
+105,135,75,93,36.5,Bleeding,Moderate
+110,130,70,92,36.6,Bleeding,Moderate
+115,125,65,91,36.7,Bleeding,Moderate
+120,120,60,90,36.8,Bleeding,Moderate
+125,115,55,89,36.9,Bleeding,Severe
+130,110,50,88,37,Bleeding,Severe
+135,105,45,87,37.1,Bleeding,Severe
+140,100,40,86,37.2,Cardiac Tamponade,Moderate
+145,95,35,85,37.3,Cardiac Tamponade,Moderate
+150,90,30,84,37.4,Cardiac Tamponade,Moderate
+155,85,25,83,37.5,Cardiac Tamponade,Severe
+100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
+95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
+120,110,60,88,36.8,None,None
+115,105,55,87,36.9,None,None
+110,100,50,86,37,None,None
+105,95,45,85,37.1,None,None
+130,120,70,92,36.4,Bleeding,Mild
+135,115,65,91,36.5,Bleeding,Mild
+140,110,60,90,36.6,Bleeding,Mild
+145,105,55,89,36.7,Bleeding,Mild
+150,100,50,88,36.8,Bleeding,Moderate
+155,95,45,87,36.9,Bleeding,Moderate
+160,90,40,86,37,Bleeding,Severe
+165,85,35,85,37.1,Bleeding,Severe
+100,80,30,84,36.4,Cardiact Tamponade,Mild
+95,75,25,83,36.5,Cardiact Tamponade,Mild
+90,70,20,82,36.6,Cardiact Tamponade,Mild
+85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,95,45,85,37.1,None,None
+115,110,60,88,36.8,None,None
+105,105,55,87,36.9,None,None
+130,120,70,92,36.8,None,None
+125,115,65,91,36.9,None,None
+120,110,60,90,36.7,Bleeding,Mild
+115,105,55,89,36.8,Bleeding,Mild
+115,105,55,89,37.1,None,None
+110,100,50,88,37.2,None,None
+105,95,45,87,37.3,None,None
+100,90,40,86,37.4,None,None
