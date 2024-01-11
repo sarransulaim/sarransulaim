@@ -205,93 +205,93 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 110,100,50,88,37.2,None,None
 105,95,45,87,37.3,None,None
 100,90,40,86,37.4,None,None
-130,120,70,90,36.4,Bleeding (Internal), Moderate
-125,115,65,89,36.5,Arrythmia (Tachycardia) & Bleeding, Mild
-120,110,60,88,36.6,None, None
-115,105,55,87,36.7,Cardiact Tamponade & Hypertension, Severe
-110,100,50,86,36.8,Hypotension, Moderate
-105,95,45,85,36.9,None, None
-100,90,40,84,37,Hypopnea, Mild
-95,85,35,83,37.1,Bradycardia & Hypoxia, Moderate
-90,80,30,82,37.2,None, None
-85,75,25,81,37.3,Bleeding (External), Mild
-130,120,70,90,36.4,None, None
-125,115,65,89,36.5,None, None
-120,110,60,88,36.6,Tachycardia, Moderate
-115,105,55,87,36.7,None, None
-110,100,50,86,36.8,Bradycardia & Hypotension, Mild
-105,95,45,85,36.9,None, None
-100,90,40,84,37,None, None
-95,85,35,83,37.1,Hypertension, Severe
-90,80,30,82,37.2,Hypoxia, Mild
-85,75,25,81,37.3,None, None
-130,120,70,90,36.4,None, None
-125,115,65,89,36.5,None, None
-120,110,60,88,36.6,Bradycardia, Mild
-115,105,55,87,36.7,None, None
-110,100,50,86,36.8,None, None
-105,95,45,85,36.9,None, None
-100,90,40,84,37,None, None
-95,85,35,83,37.1,None, None
-90,80,30,82,37.2,None, None
-85,75,25,81,37.3,None, None
-30,120,70,90,36.4,Internal Bleeding & Hypotension, Severe
-125,115,65,89,36.5,Tachycardia & Hypopnea, Moderate
-120,110,60,88,36.6,None, None
-115,105,55,87,36.7,Cardiact Tamponade & Hypoxia, Moderate
-110,100,50,86,36.8,Thrombus, Mild
-105,95,45,85,36.9,None, None
-100,90,40,84,37,Anemia, Mild
-95,85,35,83,37.1,Bradycardia & Acute Kidney Injury, Severe
-90,80,30,82,37.2,None, None
-85,75,25,81,37.3,External Bleeding & Hypertension, Moderate
-130,120,70,90,36.4,None, None
-125,115,65,89,36.5,None, None
-120,110,60,88,36.6,Bradycardia & Hyperventilation, Mild
-115,105,55,87,36.7,None, None
-110,100,50,86,36.8,Tachycardia & Hypotension, Moderate
-105,95,45,85,36.9,None, None
-100,90,40,84,37,Thrombus & Hypopnea, Mild
-95,85,35,83,37.1,Bradycardia & Hyperglycemia, Moderate
-90,80,30,82,37.2,None, None
-85,75,25,81,37.3,None, None
-130,120,70,90,36.4,None, None
-125,115,65,89,36.5,None, None
-120,110,60,88,36.6,Anemia & Hypoxia, Mild
-115,105,55,87,36.7,Internal Bleeding & Hypotension, Severe
-110,100,50,86,36.8,Pulmonary Edema, Moderate
-105,95,45,85,36.9,Tachycardia & Hypertension, Moderate
-100,90,40,84,37,Renal Failure, Mild
-95,85,35,83,37.1,None, None
-90,80,30,82,37.2,Hypopnea & Hypoglycemia, Mild
-85,75,25,81,37.3,Thrombus & Hyperventilation, Moderate
-130,120,70,90,36.4,Sepsis & Respiratory Failure, Severe
-125,115,65,89,36.5,Hypovolemic Shock & Seizures, Moderate
-120,110,60,88,36.6,None, None
-115,105,55,87,36.7,Pulmonary Embolism & Cardiac Arrest, Moderate
-110,100,50,86,36.8,Pericarditis & Acute Pancreatitis, Mild
-105,95,45,85,36.9,None, None
-100,90,40,84,37,Pneumonia & Electrolyte Imbalance, Mild
-95,85,35,83,37.1,Anemia & Liver Failure, Moderate
-90,80,30,82,37.2,None, None
-85,75,25,81,37.3,Metabolic Acidosis & Disseminated Intravascular Coagulation, Severe
-130,120,70,90,36.4,None, None
-125,115,65,89,36.5,None, None
-120,110,60,88,36.6,Anaphylaxis & Hypothermia, Mild
-115,105,55,87,36.7,None, None
-110,100,50,86,36.8,Sepsis & Acute Kidney Injury, Severe
-105,95,45,85,36.9,None, None
-100,90,40,84,37,Intracranial Hemorrhage & Stroke, Moderate
-95,85,35,83,37.1,Meningitis & Diabetic Ketoacidosis, Moderate
-90,80,30,82,37.2,None, None
-85,75,25,81,37.3,Adrenal Insufficiency & Myocardial Infarction, Severe
-130,120,70,90,36.4,None, None
-125,115,65,89,36.5,None, None
-120,110,60,88,36.6,Hemolytic Anemia & Sepsis, Mild
-115,105,55,87,36.7,Internal Bleeding & Hypovolemic Shock, Severe
-110,100,50,86,36.8,Rhabdomyolysis & ARDS, Moderate
-105,95,45,85,36.9,Tachycardia & Hyperthermia, Moderate
-100,90,40,84,37,Coagulopathy & Acute Respiratory Distress Syndrome, Mild
-95,85,35,83,37.1,None, None
-90,80,30,82,37.2,Multi-organ Failure & Sepsis, Severe
-85,75,25,81,37.3,Disseminated Intravascular Coagulation & Acute Liver Failure, Mild
+130,120,70,90,36.4,Bleeding (Internal),Moderate
+125,115,65,89,36.5,Arrythmia (Tachycardia) & Bleeding,Mild
+120,110,60,88,36.6,None,None
+115,105,55,87,36.7,Cardiact Tamponade & Hypertension,Severe
+110,100,50,86,36.8,Hypotension,Moderate
+105,95,45,85,36.9,None,None
+100,90,40,84,37,Hypopnea,Mild
+95,85,35,83,37.1,Bradycardia & Hypoxia,Moderate
+90,80,30,82,37.2,None,None
+85,75,25,81,37.3,Bleeding (External),Mild
+130,120,70,90,36.4,None,None
+125,115,65,89,36.5,None,None
+120,110,60,88,36.6,Tachycardia,Moderate
+115,105,55,87,36.7,None,None
+110,100,50,86,36.8,Bradycardia & Hypotension,Mild
+105,95,45,85,36.9,None,None
+100,90,40,84,37,None,None
+95,85,35,83,37.1,Hypertension,Severe
+90,80,30,82,37.2,Hypoxia,Mild
+85,75,25,81,37.3,None,None
+130,120,70,90,36.4,None,None
+125,115,65,89,36.5,None,None
+120,110,60,88,36.6,Bradycardia,Mild
+115,105,55,87,36.7,None,None
+110,100,50,86,36.8,None,None
+105,95,45,85,36.9,None,None
+100,90,40,84,37,None,None
+95,85,35,83,37.1,None,None
+90,80,30,82,37.2,None,None
+85,75,25,81,37.3,None,None
+30,120,70,90,36.4,Internal Bleeding & Hypotension,Severe
+125,115,65,89,36.5,Tachycardia & Hypopnea,Moderate
+120,110,60,88,36.6,None,None
+115,105,55,87,36.7,Cardiact Tamponade & Hypoxia,Moderate
+110,100,50,86,36.8,Thrombus,Mild
+105,95,45,85,36.9,None,None
+100,90,40,84,37,Anemia,Mild
+95,85,35,83,37.1,Bradycardia & Acute Kidney Injury,Severe
+90,80,30,82,37.2,None,None
+85,75,25,81,37.3,External Bleeding & Hypertension,Moderate
+130,120,70,90,36.4,None,None
+125,115,65,89,36.5,None,None
+120,110,60,88,36.6,Bradycardia & Hyperventilation,Mild
+115,105,55,87,36.7,None,None
+110,100,50,86,36.8,Tachycardia & Hypotension,Moderate
+105,95,45,85,36.9,None,None
+100,90,40,84,37,Thrombus & Hypopnea,Mild
+95,85,35,83,37.1,Bradycardia & Hyperglycemia,Moderate
+90,80,30,82,37.2,None,None
+85,75,25,81,37.3,None,None
+130,120,70,90,36.4,None,None
+125,115,65,89,36.5,None,None
+120,110,60,88,36.6,Anemia & Hypoxia,Mild
+115,105,55,87,36.7,Internal Bleeding & Hypotension,Severe
+110,100,50,86,36.8,Pulmonary Edema,Moderate
+105,95,45,85,36.9,Tachycardia & Hypertension,Moderate
+100,90,40,84,37,Renal Failure,Mild
+95,85,35,83,37.1,None,None
+90,80,30,82,37.2,Hypopnea & Hypoglycemia,Mild
+85,75,25,81,37.3,Thrombus & Hyperventilation,Moderate
+130,120,70,90,36.4,Sepsis & Respiratory Failure,Severe
+125,115,65,89,36.5,Hypovolemic Shock & Seizures,Moderate
+120,110,60,88,36.6,None,None
+115,105,55,87,36.7,Pulmonary Embolism & Cardiac Arrest,Moderate
+110,100,50,86,36.8,Pericarditis & Acute Pancreatitis,Mild
+105,95,45,85,36.9,None,None
+100,90,40,84,37,Pneumonia & Electrolyte Imbalance,Mild
+95,85,35,83,37.1,Anemia & Liver Failure,Moderate
+90,80,30,82,37.2,None,None
+85,75,25,81,37.3,Metabolic Acidosis & Disseminated Intravascular Coagulation,Severe
+130,120,70,90,36.4,None,None
+125,115,65,89,36.5,None,None
+120,110,60,88,36.6,Anaphylaxis & Hypothermia,Mild
+115,105,55,87,36.7,None,None
+110,100,50,86,36.8,Sepsis & Acute Kidney Injury,Severe
+105,95,45,85,36.9,None,None
+100,90,40,84,37,Intracranial Hemorrhage & Stroke,Moderate
+95,85,35,83,37.1,Meningitis & Diabetic Ketoacidosis,Moderate
+90,80,30,82,37.2,None,None
+85,75,25,81,37.3,Adrenal Insufficiency & Myocardial Infarction,Severe
+130,120,70,90,36.4,None,None
+125,115,65,89,36.5,None,None
+120,110,60,88,36.6,Hemolytic Anemia & Sepsis,Mild
+115,105,55,87,36.7,Internal Bleeding & Hypovolemic Shock,Severe
+110,100,50,86,36.8,Rhabdomyolysis & ARDS,Moderate
+105,95,45,85,36.9,Tachycardia & Hyperthermia,Moderate
+100,90,40,84,37,Coagulopathy & Acute Respiratory Distress Syndrome,Mild
+95,85,35,83,37.1,None,None
+90,80,30,82,37.2,Multi-organ Failure & Sepsis,Severe
+85,75,25,81,37.3,Disseminated Intravascular Coagulation & Acute Liver Failure,Mild
