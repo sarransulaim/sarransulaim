@@ -17,14 +17,15 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
 95,95,45,85,37.1,Arrythmia,Moderate
+90,80,38,78,36,Arrythmia,Mild
 120,100,50,82,36.4,None,None
 115,95,45,81,36.5,None,None
 110,90,40,80,36.6,None,None
@@ -40,10 +41,11 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+90,80,38,78,36,Arrythmia,Mild
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -57,8 +59,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 110,100,50,82,37,None,None
 115,105,55,83,37.1,None,None
 120,110,60,84,37.2,None,None
+90,80,38,78,36,Arrythmia,Mild
 125,115,65,85,37.3,None,None
 130,120,70,86,37.4,None,None
+90,80,38,78,36,Arrythmia,Mild
 135,125,75,87,37.5,None,None
 100,140,80,94,36.4,Bleeding,Moderate
 105,135,75,93,36.5,Bleeding,Moderate
@@ -82,6 +86,8 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 105,125,75,93,36.5,None,None
 100,120,70,92,36.6,None,None
 95,115,65,91,36.7,None,None
+90,80,38,78,36,Arrythmia,Mild
+90,80,38,78,36,Arrythmia,Mild
 120,130,80,94,36.8,Bleeding,Mild
 125,125,75,93,36.9,Bleeding,Mild
 130,120,70,92,37,Bleeding,Mild
@@ -105,11 +111,13 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 150,100,50,88,36.8,Bleeding,Moderate
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
+90,80,38,78,36,Arrythmia,Mild
+90,80,38,78,36,Arrythmia,Mild
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 110,120,60,88,36.8,None,None
 105,115,55,87,36.9,None,None
 100,110,50,86,37,None,None
@@ -129,10 +137,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -144,15 +152,18 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 110,130,70,92,36.6,Bleeding,Moderate
 115,125,65,91,36.7,Bleeding,Moderate
 120,120,60,90,36.8,Bleeding,Moderate
+90,80,38,78,36,Arrythmia,Mild
 125,115,55,89,36.9,Bleeding,Severe
 130,110,50,88,37,Bleeding,Severe
 135,105,45,87,37.1,Bleeding,Severe
 140,100,40,86,37.2,Cardiac Tamponade,Moderate
 145,95,35,85,37.3,Cardiac Tamponade,Moderate
 150,90,30,84,37.4,Cardiac Tamponade,Moderate
+90,80,38,78,36,Arrythmia,Mild
 155,85,25,83,37.5,Cardiac Tamponade,Severe
 100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
 95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
+90,80,38,78,36,Arrythmia,Mild
 90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
 85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
 120,110,60,88,36.8,None,None
@@ -167,10 +178,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 100,95,45,85,37.1,None,None
 115,110,60,88,36.8,None,None
 105,105,55,87,36.9,None,None
@@ -184,27 +195,29 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,85,35,85,37.2,Bleeding,Mild
 90,80,30,84,37.3,None,None
 150,100,50,88,36.8,Bleeding,Moderate
+90,80,38,78,36,Arrythmia,Mild
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,80,38,78,36,Arrythmia,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 110,120,60,88,36.8,None,None
 105,115,55,87,36.9,None,None
 100,110,50,86,37,None,None
 95,105,45,85,37.1,None,None
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 130,110,60,90,36.4,None,None
 125,105,55,89,36.5,None,None
 120,100,50,88,36.6,None,None
 115,95,45,87,36.7,None,None
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 110,110,60,88,36.4,None,None
 105,105,55,87,36.5,None,None
 100,100,50,86,36.6,None,None
@@ -224,20 +237,22 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 130,115,55,89,37,Bleeding,Severe
 105,140,80,95,36.5,Bleeding,Moderate
 110,135,75,93,36.6,Bleeding,Moderate
+90,80,38,78,36,Arrythmia,Mild
 115,130,70,92,36.7,Bleeding,Moderate
 120,125,65,91,36.8,Bleeding,Moderate
 125,120,60,90,36.9,Bleeding,Severe
 130,115,55,89,37,Bleeding,Severe
 135,110,50,88,37.1,Bleeding,Severe
+90,80,38,78,36,Arrythmia,Mild
 140,105,45,87,37.2,Bleeding,Severe
 100,130,80,94,36.4,None,None
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -246,21 +261,23 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 115,95,45,81,36.5,None,None
 110,90,40,80,36.6,None,None
 105,140,80,95,36.5,Bleeding,Moderate
+90,80,38,78,36,Arrythmia,Mild
 110,135,75,93,36.6,Bleeding,Moderate
 115,130,70,92,36.7,Bleeding,Moderate
 120,125,65,91,36.8,Bleeding,Moderate
 125,120,60,90,36.9,Bleeding,Severe
 130,115,55,89,37,Bleeding,Severe
 135,110,50,88,37.1,Bleeding,Severe
+90,80,38,78,36,Arrythmia,Mild
 140,105,45,87,37.2,Bleeding,Severe
 100,130,80,94,36.4,None,None
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -281,6 +298,7 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 105,135,75,93,36.5,Bleeding,Moderate
 110,130,70,92,36.6,Bleeding,Moderate
 115,125,65,91,36.7,Bleeding,Moderate
+90,80,38,78,36,Arrythmia,Mild
 120,120,60,90,36.8,Bleeding,Moderate
 125,115,55,90,36.9,Bleeding,Moderate
 130,110,50,89,37,Bleeding,Severe
@@ -310,6 +328,7 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
 95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
 90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
+90,80,38,78,36,Arrythmia,Mild
 85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
 120,110,60,88,36.8,None,None
 115,105,55,87,36.9,None,None
@@ -319,14 +338,15 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 135,115,65,91,36.5,Bleeding,Mild
 140,110,60,90,36.6,Bleeding,Mild
 145,105,55,89,36.7,Bleeding,Mild
+90,80,38,78,36,Arrythmia,Mild
 150,100,50,88,36.8,Bleeding,Moderate
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 110,120,60,88,36.8,None,None
 105,115,55,87,36.9,None,None
 100,110,50,86,37,None,None
@@ -338,6 +358,7 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 110,110,60,88,36.4,None,None
 105,105,55,87,36.5,None,None
 100,100,50,86,36.6,None,None
+90,80,38,78,36,Arrythmia,Mild
 95,95,45,85,37.1,None,None
 115,110,60,88,36.8,None,None
 135,110,50,88,37.1,Bleeding,Severe
@@ -346,12 +367,13 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
+90,80,38,78,36,Arrythmia,Mild
 100,100,50,86,37,Arrythmia,Moderate
 95,95,45,85,37.1,Arrythmia,Moderate
 120,100,50,82,36.4,None,None
@@ -367,6 +389,7 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 140,100,40,86,37.2,Cardiac Tamponade,Moderate
 145,95,35,85,37.3,Cardiac Tamponade,Moderate
 150,90,30,84,37.4,Cardiac Tamponade,Moderate
+90,80,38,78,36,Arrythmia,Mild
 155,85,25,83,37.5,Cardiac Tamponade,Severe
 100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
 95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
@@ -384,10 +407,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 100,95,45,85,37.1,None,None
 115,110,60,88,36.8,None,None
 105,105,55,87,36.9,None,None
@@ -396,10 +419,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 120,110,60,90,36.7,Bleeding,Mild
 115,105,55,89,36.8,Bleeding,Mild
 115,105,65,87,36.9,None,None
-110,100,60,86,37,Cardiact Tamponade,Mild
-105,95,55,85,37.1,Cardiact Tamponade,Mild
-100,90,50,84,37.2,Cardiact Tamponade,Mild
-95,85,45,83,37.3,Cardiact Tamponade,Moderate
+110,100,60,86,37,cardiac Tamponade,Mild
+105,95,55,85,37.1,cardiac Tamponade,Mild
+100,90,50,84,37.2,cardiac Tamponade,Mild
+95,85,45,83,37.3,cardiac Tamponade,Moderate
 130,120,70,92,36.8,None,None
 125,115,65,91,36.9,None,None
 120,110,60,90,37,None,None
@@ -415,10 +438,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -488,9 +511,9 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
 90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
 85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
 100,100,40,86,36.4,Arrythmia (Tachycardia),Mild
 105,95,45,85,37.1,None,None
 95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
@@ -517,10 +540,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -540,10 +563,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -606,10 +629,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 110,120,60,88,36.8,None,None
 105,115,55,87,36.9,None,None
 100,110,50,86,37,None,None
@@ -641,10 +664,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -664,10 +687,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -730,10 +753,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 110,120,60,88,36.8,None,None
 105,115,55,87,36.9,None,None
 100,110,50,86,37,None,None
@@ -753,10 +776,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -791,10 +814,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 100,95,45,85,37.1,None,None
 115,110,60,88,36.8,None,None
 105,105,55,87,36.9,None,None
@@ -805,10 +828,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -843,10 +866,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 100,95,45,85,37.1,None,None
 115,110,60,88,36.8,None,None
 105,105,55,87,36.9,None,None
@@ -858,16 +881,16 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,95,35,85,36.5,Arrythmia (Tachycardia),Mild
 90,90,30,84,36.6,Arrythmia (Tachycardia),Mild
 85,85,25,83,36.7,Arrythmia (Tachycardia),Mild
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 100,95,45,85,37.1,None,None
 115,105,55,89,37.1,None,None
 110,100,50,88,37.2,None,None
 105,95,45,87,37.3,None,None
 100,90,40,86,37.4,None,None
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+85,65,15,81,36.7,cardiac Tamponade,Severe
 100,95,45,85,37.1,None,None
 120,125,65,91,36.8,Bleeding,Moderate
 125,120,60,90,36.9,Bleeding,Severe
@@ -884,10 +907,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -907,10 +930,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -973,10 +996,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 110,120,60,88,36.8,None,None
 105,115,55,87,36.9,None,None
 100,110,50,86,37,None,None
@@ -996,10 +1019,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 95,125,75,93,36.5,None,None
 90,120,70,92,36.6,None,None
 85,115,65,91,36.7,None,None
-145,100,40,86,37.3,Cardiact Tamponade,Severe
-150,95,35,85,37.4,Cardiact Tamponade,Severe
-155,90,30,84,37.5,Cardiact Tamponade,Severe
-160,85,25,83,37.6,Cardiact Tamponade,Severe
+145,100,40,86,37.3,cardiac Tamponade,Severe
+150,95,35,85,37.4,cardiac Tamponade,Severe
+155,90,30,84,37.5,cardiac Tamponade,Severe
+160,85,25,83,37.6,cardiac Tamponade,Severe
 110,110,60,88,36.8,Arrythmia,Moderate
 105,105,55,87,36.9,Arrythmia,Moderate
 100,100,50,86,37,Arrythmia,Moderate
@@ -1034,10 +1057,10 @@ Heart Rate,Systolic BP,Diastolic BP,SpO2,Temp,Complication,Severity
 155,95,45,87,36.9,Bleeding,Moderate
 160,90,40,86,37,Bleeding,Severe
 165,85,35,85,37.1,Bleeding,Severe
-100,80,30,84,36.4,Cardiact Tamponade,Mild
-95,75,25,83,36.5,Cardiact Tamponade,Mild
-90,70,20,82,36.6,Cardiact Tamponade,Mild
-85,65,15,81,36.7,Cardiact Tamponade,Severe
+100,80,30,84,36.4,cardiac Tamponade,Mild
+95,75,25,83,36.5,cardiac Tamponade,Mild
+90,70,20,82,36.6,cardiac Tamponade,Mild
+85,65,15,81,36.7,cardiac Tamponade,Severe
 100,95,45,85,37.1,None,None
 115,110,60,88,36.8,None,None
 105,105,55,87,36.9,None,None
