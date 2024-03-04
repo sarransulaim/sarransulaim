@@ -1,4 +1,4 @@
-﻿Heart_Rate,HR_After,Systolic_BP,SBP_After,Diastolic_BP,DBP_After,Sp02,Sp02_afetr,Temp,Temp_After,Complication,Severity
+﻿Heart_Rate,HR_After,Systolic_BP,SBP_After,Diastolic_BP,DBP_After,Sp02,Sp02_Afterr,Temp,Temp_After,Complication,Severity
 86,95,94,108,71,77,96,95,35,37.4,None,None
 73,85,100,91,73,64,94,98,37.4,36,None,None
 65,79,110,108,61,79,90,93,35.9,35,None,None
